@@ -21,11 +21,12 @@ body {
     
 }
 
-.card img {
+.article_picture {
     border-radius: 10px;
     display: block;
     clear:right;
     margin-bottom: 1rem;
+    border: 1px, solid, black;
 }
 
 
@@ -79,4 +80,13 @@ body {
     display: inline-block;
     margin-left: 0.8rem;
     padding-top: 0.2rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .article_picture {
+        border: none;
+        height: 200px;
+        width: auto;
+    }
+
 }
