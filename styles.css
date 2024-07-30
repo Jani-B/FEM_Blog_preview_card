@@ -1,92 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+}
 
 body {
-    background-color: #F4D04E;
-    text-align: center;
-    font-family: "Figtree", sans-serif;
-
+  background-color: #f4d04e;
+  text-align: center;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100vh;
 }
 
 .card {
-    text-align: left;
-    margin-top: 12rem;
-    padding: 1rem;
-    display: inline-block;
-    background-color: white;
-    border-radius: 20px;
-    border: 1px, solid, black;
-    max-width: 336px;
-    box-shadow: 8px 8px;
-    color: #111111;
-    
+  text-align: left;
+  padding: 1rem;
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px, solid, black;
+  max-width: 336px;
+  box-shadow: 8px 8px;
+  color: #111111;
 }
 
 .article_picture {
-    border-radius: 10px;
-    display: block;
-    clear:right;
-    margin-bottom: 1rem;
-    border: 1px, solid, black;
+  border-radius: 10px;
+  display: block;
+  clear: right;
+  margin-bottom: 1rem;
+  border: 1px, solid, black;
 }
 
-
-
 .card h1 {
-    font-size: 24px;
-    font-weight: 800;
-    line-height: 150%;
-    letter-spacing: 0px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin-bottom: 0.5rem;
 }
 
 .card h1:hover {
-    color: #F4D04E;
+  color: #f4d04e;
+  cursor: pointer;
 }
 
 .card p {
-    margin-top: 0.2rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .category {
-    background-color:#F4D04E;
-    display: inline-block;
-    clear: right;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 150%;
-    letter-spacing: 0%;
+  background-color: #f4d04e;
+  display: inline-block;
+  clear: right;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-bottom: 1rem;
 }
 
 .content {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: 0px;
-    color: #6B6B6B
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: #6b6b6b;
 }
 
 .avatar {
-    width: 32px;
-    height: auto;
-    float: left;
+  width: 32px;
+  height: auto;
+  float: left;
 }
 
 .writer {
-    font-size: 14px;
-    font-weight: 800;
-    line-height: 150%;
-    letter-spacing: 0px;
-    display: inline-block;
-    margin-left: 0.8rem;
-    padding-top: 0.2rem;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 0px;
+  display: inline-block;
+  margin-left: 0.8rem;
+  padding-top: 0.2rem;
 }
 
 @media only screen and (max-width: 400px) {
-    .article_picture {
-        border: none;
-        height: 200px;
-        width: auto;
-    }
-
+  .article_picture {
+    border: none;
+    height: 200px;
+    width: auto;
+  }
 }
